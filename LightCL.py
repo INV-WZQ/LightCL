@@ -19,11 +19,11 @@ parser = argparse.ArgumentParser(description='Light Continual Learning')
 parser.add_argument('--lr',       type=float, default=0.01,      help='learning rate (default: 0.01)')
 parser.add_argument('--Beta',     type=float, default=0.0002,    help='Beta (default: 0.0002)')
 parser.add_argument('--BufferNum',type=int,   default=15,        help='Buffer Num (default: 15)')
-parser.add_argument('--Ratio', type=float, default=0.15,      help='Ratio (default: 0.15)')
+parser.add_argument('--Ratio',    type=float, default=0.15,      help='Ratio (default: 0.15)')
 parser.add_argument('--Seed',     type=int,   default=0,         help='Seed (default: 0)')
 parser.add_argument('--pretrain', action='store_false', default=True,     help='pretrain(default: True)')
 parser.add_argument('--Dataset',  type=str,   default='CIFAR10', help='Dataset (default: CIFAR10; Other: TinyImageNet)')
-parser.add_argument('--Sparse', action='store_true', default=False,     help='Sparse(default: False)')
+parser.add_argument('--Sparse',   action='store_true', default=False,     help='Sparse(default: False)')
 
 args = parser.parse_args()
 Learning_rate, Beta, Buffer_num, Ratio, seed, Dataset_name = args.lr, args.Beta, args.BufferNum, args.Ratio, args.Seed, args.Dataset
