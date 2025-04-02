@@ -40,13 +40,10 @@ Note that we already have the pre-trained model (`ResNet18_for_LightCL.pth`) in 
 
 ## 3 Cite
 ```
-@misc{wang2024efficientcontinuallearninglow,
-      title={Efficient Continual Learning with Low Memory Footprint For Edge Device}, 
-      author={Zeqing Wang and Fei Cheng and Kangye Ji and Bohu Huang},
-      year={2024},
-      eprint={2407.10545},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2407.10545}, 
+@inproceedings{wang2025lightCL,
+author = {Wang, Zeqing and Cheng, Fei and Ji, Kangye and Huang, Bohu},
+title = {LightCL: Compact Continual Learning with Low Memory Footprint For Edge Device},
+booktitle = {Proceedings of the 30th Asia and South Pacific Design Automation Conference},
+year = {2025},
 }
 ```
